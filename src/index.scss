@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #3b3b3b;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+#root {
+  width: 90%;
+  margin: 0 auto 4rem auto;
+}
+

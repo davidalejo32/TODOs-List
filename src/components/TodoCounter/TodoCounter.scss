@@ -1,0 +1,29 @@
+.counter {  
+  width: 100%;
+  margin: 4rem 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+
+
+  &__title{
+    width: 20rem;
+    font-size: 2.9rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+    & span {
+      color: #2ac040;
+      opacity: 0.5;
+    }
+  }
+
+  &__task {
+    align-self: flex-end;
+
+    & span {
+      opacity: 0.5;
+
+    }
+  }
+}
+
