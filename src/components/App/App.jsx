@@ -1,11 +1,14 @@
 import React from 'react';
 import { TodoCounter } from "../TodoCounter/TodoCounter"
+import { TodoSearch } from "../TodoSearch/TodoSearch"
 // import './App.css';
 
 function App() {
   return (
-    <TodoCounter />
-    
+    <React.Fragment>
+      <TodoCounter />
+      <TodoSearch />
+    </React.Fragment>
   );
 }
 

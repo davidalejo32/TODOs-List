@@ -2,7 +2,7 @@ import React from "react";
 import './TodoCounter.scss';
 
 
-function TodoCounter () {
+function TodoCounter (props) {
   return(
     <div className="counter">
       <h2 className="counter__title"> <span>Task</span> Completed</h2>
