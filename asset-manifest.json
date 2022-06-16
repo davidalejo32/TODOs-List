@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/davidalejo32/TODOs-List/static/css/main.2dc7ceae.css",
+    "main.js": "/davidalejo32/TODOs-List/static/js/main.7e53c163.js",
+    "static/media/error.svg": "/davidalejo32/TODOs-List/static/media/error.bf3aeb812e3b58a459f7344d93e93b31.svg",
+    "index.html": "/davidalejo32/TODOs-List/index.html",
+    "main.2dc7ceae.css.map": "/davidalejo32/TODOs-List/static/css/main.2dc7ceae.css.map",
+    "main.7e53c163.js.map": "/davidalejo32/TODOs-List/static/js/main.7e53c163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc7ceae.css",
+    "static/js/main.7e53c163.js"
+  ]
+}
