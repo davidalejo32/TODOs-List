@@ -1,0 +1,41 @@
+.todo-skeleton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+
+  &__input {
+    width: 2.5rem ;
+    height: 2.5rem;
+    border-radius: .2rem;
+  }
+  
+  &__container {
+    width: 100%;
+    min-height: 5rem;
+    border-radius: 8px;
+  }
+}
+
+.todo-skeleton__input, .todo-skeleton__container {
+  background: linear-gradient(        
+  to right,
+  rgba(255, 255, 255, 0),
+  rgba(197, 197, 197, 0.3) 50%,
+  rgba(255, 255, 255, 0) 80%
+),
+  #474747;
+  background-repeat: repeat-y;        
+  background-size: 100px 200px;     
+  background-position: 0 0; 
+
+  animation: loadingAnimation 1s infinite;
+}
+
+
+@keyframes loadingAnimation {
+  to {
+    background-position: 110% 0%, /* move highlight to right */ 0 0;
+  }
+}
